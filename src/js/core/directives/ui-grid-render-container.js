@@ -154,7 +154,7 @@
                  (scrollEvent.x && scrollEvent.x.percentage !== 0 && scrollEvent.x.percentage !== 1)) {
 
                   event.preventDefault();
-                  // scrollEvent.fireThrottledScrollingEvent();
+                  scrollEvent.fireThrottledScrollingEvent();
               }
             });
 
